@@ -1,3 +1,4 @@
+// Variables declaration
 import axios from "axios";
 import inquirer from "inquirer";
 import chalk from "chalk";
@@ -9,9 +10,7 @@ const currencies = [
   'PLN',
   'CAD',
   'JPY',
-  'EGY',
-  'HKD',
-  'NZD'
+  'EGY'
 ];
 
 const questions = [
